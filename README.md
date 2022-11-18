@@ -8,3 +8,5 @@
   <li>`template.ts`：写题文件</li>
   <li>`test-cases.ts`：检测文件</li>
 </ol>
+也可以直接使用 vscode 的 type-challenges 插件<br>
+插件做的题会保存在 .typeChallenges 中。
