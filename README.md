@@ -1,5 +1,7 @@
 跟随崔大做的ts的类型体操。<br>
 
+## 相关文档
+[TypeScript中文文档](https://typescript.bootcss.com/)，[官方文档](https://www.typescriptlang.org/)
 
 ## 如何练习
 在 `type-challenges` 文件夹内创建对应的题目文件。<br>
