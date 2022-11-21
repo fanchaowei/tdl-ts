@@ -34,7 +34,7 @@ type MyPick<T, K extends keyof T> = {
 }
 
 // 涉及知识点(在官方文档中搜索查看)：
-// 1. mapped: 遍历 ([P in K])
+// 1. mapped: 遍历, in 关键字 ([P in K])
 // 2. indexed: 取值 (T[P])
 // 3. lookup: 取 key (keyof)
 // 4. Generic Constraints: 即本题的 extends, 在 < > 内是类型约束，类似上面 K 约束为 T 的 key (K extends keyof T)
