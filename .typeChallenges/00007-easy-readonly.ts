@@ -24,12 +24,12 @@ type MyReadonly<T> = {
 // indexed
 
 // js 实现
-function readonly(obj) {
-  const result = {}
+// function readonly(obj) {
+//   const result = {}
 
-  for (const key in obj) {
-    result['readonly' + key] = obj[key]
-  }
+//   for (const key in obj) {
+//     result['readonly' + key] = obj[key]
+//   }
 
-  return result
-}
+//   return result
+// }

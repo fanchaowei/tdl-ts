@@ -40,7 +40,7 @@ type First<T extends any[]> = T extends [infer First, ...infer Rest]
   : never
 
 // js
-const first = (arr) => {
-  const [first, ...rest] = arr
-  return first ? first : 'never'
-}
+// const first = (arr) => {
+//   const [first, ...rest] = arr
+//   return first ? first : 'never'
+// }

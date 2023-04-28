@@ -36,12 +36,12 @@ type TupleToObject<T extends readonly (string | number | symbol)[]> = {
 // 2. 遍历数组
 
 // js
-function tupleToObject(array) {
-  const obj = {}
+// function tupleToObject(array) {
+//   const obj = {}
 
-  array.forEach((val) => {
-    obj[val] = val
-  })
+//   array.forEach((val) => {
+//     obj[val] = val
+//   })
 
-  return obj
-}
+//   return obj
+// }

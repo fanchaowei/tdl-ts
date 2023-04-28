@@ -40,14 +40,14 @@ type MyPick<T, K extends keyof T> = {
 // 4. Generic Constraints: 即本题的 extends, 在 < > 内是类型约束，类似上面 K 约束为 T 的 key (K extends keyof T)
 
 // 对比学习法，先写一个 js 的解决方案，然后转化为 ts
-function MyPick(todo, keys) {
-  const obj = {}
+// function MyPick(todo, keys) {
+//   const obj = {}
 
-  keys.forEach((key) => {
-    if (key in todo) {
-      obj[key] = todo[key]
-    }
-  })
+//   keys.forEach((key) => {
+//     if (key in todo) {
+//       obj[key] = todo[key]
+//     }
+//   })
 
-  return obj
-}
+//   return obj
+// }
