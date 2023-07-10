@@ -20,8 +20,8 @@ type cases = [
 ]
 
 // ============= Your Code Here =============
-type GetKeyArr<T> = [keyof T]
+type RemoveUndefined<T> = [T] extends [undefined] ? T : Exclude<T, undefined>
 
-type ObjectEntries<T> = [...GetKeyArr<T>, T[...GetKeyArr<T>]]
-
-type Demo = GetKeyArr<Partial<Model>>
+type ObjectEntries<T> = {
+  [P in keyof T]-?: [P, RemoveUndefined<T[P]>]
+}[keyof T]
